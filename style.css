@@ -1,0 +1,220 @@
+* {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+html,body {
+   margin:0;
+   padding:0;
+   height:100%;
+ }
+.nav {
+	margin-top: -5px;
+	display: flex;
+	min-height: 56px;
+	align-items: center;
+	flex-direction: row;
+}
+.blank{
+	order:1;
+	text-align:left;
+	flex-grow: 5;
+}
+.gmail {
+	order:2;
+	text-align:right;
+	margin-right: 15px;
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+.images {
+	order:3;
+	text-align:right;
+	text-decoration: none;
+	color: #ffffff;
+}
+.logo {
+	width: 23px;
+	height: 23px;
+	margin-right:18px;
+	margin-left: 18px;
+	color:rgba(0,0,0,0.87);
+}
+.menu{
+	order:4;
+	text-align:right;
+	opacity: 0.6;
+	margin-top: 5px;
+}
+.bouton {
+	order:5;
+	text-align:right;
+	margin-right: 25px;
+	border: 1px solid #4285f4;
+	background-color: #4683ea;
+	padding: 7px 12px 7px 12px;
+	font-weight: bold;
+	cursor:default; 
+	display: inline-block;
+	border-radius: 2px;
+	text-decoration: none;
+	outline: none;
+	color: #ffffff;
+}
+.bouton a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.gmail a{
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+.images a{
+	color: rgba(0,0,0,0.87);
+	text-decoration: none;
+}
+.menu:hover {
+	opacity:1;
+}
+
+.images:hover {
+	text-decoration: underline;
+}
+
+.gmail:hover {
+	text-decoration: underline;
+}
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	height: 550px;
+	overflow: auto;
+}
+.google {
+	width: 272px;
+}
+input {
+	border: 1px solid #dfe1e5;
+	border-radius: 24px;
+	width: 500px;
+	margin: 25px 0 25px 0px;
+	padding:15px 0 15px 0;
+}
+input:hover {
+	box-shadow: 1px 1px 1px 1px grey;
+}
+.boutons {
+	display: flex;
+}
+.recherche{
+	margin-right: 5px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
+	color:#5F6368;
+	border-color: transparent;
+	font-size: 14px;
+}
+.chance {
+	margin-left: 5px;
+	padding: 10px 10px 10px 10px;
+	border-radius: 4px;
+	color:#5F6368;
+	border-color: transparent;
+	font-size: 14px;
+}
+.chance:hover {
+	cursor: pointer;
+}
+ .recherche:hover {
+ 	cursor: pointer;
+ }
+ footer {
+ 	background-color: grey;
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	border:solid 1px #e4e4e4;
+ 	flex-shrink: 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+ }
+ .country {
+	flex-basis: 100%;
+	background-color:#f2f2f2;
+	height: 30px;
+	color:rgba(0,0,0,.54);
+	text-align: left;
+	padding-top:15px;
+	padding-left: 20px;
+	display: block;
+	border:solid 1px #e4e4e4;
+	font-size: 15px;
+ }
+ .footer {
+ 	background-color: #f2f2f2;
+ 	height: 30px;
+ 	display: flex;
+ 	align-items: flex-start;
+ 	flex-direction: row;
+ 	flex-basis: 100%;
+ 	padding: 20px 20px 0px 20px;
+ 	justify-content: space-around;
+
+ }
+.pub a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.entreprise a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.about a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+  font-size: 14px;
+}
+.how a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.judi a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.infos a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.confid a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.condit a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
+.para a {
+	text-decoration: none;
+	color: rgba(0,0,0,.54);
+	padding-right: 10px;
+	font-size: 14px;
+}
